@@ -25,6 +25,7 @@ function browserSyncReload(done) {
 // Watch files
 function watchFiles() {
     gulp.watch("./*.html", browserSyncReload);
+    gulp.watch("./css/*.css", browserSyncReload);
 }
 
 // Define complex tasks
