@@ -392,10 +392,6 @@
             color: rgba(107, 114, 128, var(--tw-text-opacity))
         }
     }
-
-    .mybd_red{
-        border: 2px solid red;
-    }
     </style>
     <style>
     body {
@@ -421,76 +417,6 @@
         </div>
         @endif
     </div>
-    <header class="masthead bg-primary text-white text-center d-flex align-items-center vh-100">
-        <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">多重微電網於高佔比太陽光電環境之<br />實際場域研究與展示</h1>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-book"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">計畫主持人：陳良瑞</p>
-        </div>
-    </header>
-    <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-            <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">特色技術</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Portfolio Grid Items-->
-            <div class="row justify-content-center">
-                <!-- Portfolio Item 1-->
-                <div class="col-md-6 col-lg-6 mb-5">
-                    <div class="portolio-item-title align-items-center justify-content-center">技術文件一</div>
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><br />Click to read more</div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/ncue/01.jpg" alt="..." />
-                    </div>
-                </div>
-                <!-- Portfolio Item 2-->
-                <div class="col-md-6 col-lg-6 mb-5">
-                    <div class="portolio-item-title align-items-center justify-content-center">技術文件二</div>
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-play fa-3x"></i><br />Click to read more</div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/ncue/02.jpg" alt="..." />
-                    </div>
-                </div>
-                <!-- Portfolio Item 3-->
-                <div class="col-md-6 col-lg-6 mb-5">
-                    <div class="portolio-item-title align-items-center justify-content-center">技術文件三</div>
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/ncue/03.jpg" alt="..." />
-                    </div>
-                </div>
-                <!-- Portfolio Item 4-->
-                <div class="col-md-6 col-lg-6 mb-5 mb-lg-0">
-                    <div class="portolio-item-title align-items-center justify-content-center">技術文件四</div>
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/ncue/04.jpg" alt="..." />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 </body>
 
 </html>
